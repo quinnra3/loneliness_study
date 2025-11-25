@@ -2,3 +2,5 @@
 prelim analysis of excel loneliness study data - downloaded 11/25/2025
 
 This is a line from RStudio
+
+This is a line from GitHub
