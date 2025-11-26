@@ -1,9 +1,32 @@
 ---
-title: "R Markdown Test"
+title: "Writing with Data P8105"
 author: "Quinn Anderson"
 date: "`r Sys.Date()`"
-output: github_document
+output: html_document
 ---
+# P8105 Writing with Data code
+
+I'm an R Markdown document!
+
+### Section 1
+
+Here's a **bold code chunk** that samples from an _italic normal distribution_:
+
+```{r}
+samp = rnorm(100)
+length(samp)
+```
+
+### Section 2
+
+I can take the mean of the sample, too!
+The mean is `r mean(samp)`.
+
+
+
+
+
+# R Markdown Auto start:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
